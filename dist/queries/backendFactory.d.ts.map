@@ -1,0 +1,1 @@
+{"version":3,"file":"backendFactory.d.ts","sourceRoot":"","sources":["../../src/queries/backendFactory.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AACxC,OAAO,KAAK,cAAc,MAAM,oBAAoB,CAAC;AAGrD;;;;;;GAMG;AACH,wBAAgB,iBAAiB,CAAC,MAAM,EAAE,aAAa,yBAQtD;AAED;;;;;;GAMG;AACH,wBAAgB,mBAAmB,CAAC,QAAQ,EAAE,SAAS,GAAG,QAAQ,EAAE,OAAO,CAAC,EAAE,MAAM,GAAG,aAAa,CAKnG"}

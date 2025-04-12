@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatEmbed Custom Backend Test</title>
+</head>
+<body>
+    <h1>ChatEmbed Custom Backend Test</h1>
+    <p>This page tests the ChatEmbed with a custom backend implementation.</p>
+    
+    <!-- ChatEmbed will be loaded here -->
+    
+    <script type="module">
+        // Import from local build
+        import Chatbot from "./dist/web.js"
+        
+        // Initialize the chatbot with custom backend
+        Chatbot.init({
+            // No chatflowid needed for custom backend
+            apiHost: "https://n8n.khiemfle.com/webhook/c11f7ca8-a60a-4ed1-a858-e86e04abe0ea/chat", // Replace with your actual backend URL
+            backendProvider: "custom", // Use the custom backend provider
+            theme: {
+                chatWindow: {
+                    welcomeMessage: "Hello! I'm using a custom backend implementation. How can I help you today?"
+                }
+            }
+        })
+    </script>
+</body>
+</html>
